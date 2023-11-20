@@ -1,0 +1,30 @@
+
+/*Stile per centrare il testo della classe "scale" */
+.scale{
+    text-align: center;
+}
+
+/*Stile per l'aspetto generale del contenitore della classe "display"*/
+.dysplay {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* stile per la grandezza testo dentro la classe "weight-display" */
+.weight-display {
+    font-size: 24px;
+}
+
+/* Stile per la grandezza e il colore del testo all'interni della classe "status-display" */
+.status-display {
+    font-size: 10px;
+    color: #333;
+}
+
+/* Stile per il margine superiore elementi classe "slider" */
+.slider {
+    margin-top: 20px;
+}

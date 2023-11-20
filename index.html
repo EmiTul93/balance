@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="scale"> <!--Contiene tutto il contenuto della Bilancia-->
+        <div class="dispaly"> <!--Rappresneta la parte superiore della bilancia, dove visualizzi peso e stato-->
+            <div class="weight-dispay" id="weightDisplay"> 0 KG </div> <!--Mostra valore del peso-->
+            <div class="status-display" id="statusDisplay"> Peso Normale</div> <!--Mostra stato del peso, inizialmente "peso normale"-->
+        </div>
+        <div class="slider"> <!--Contiene uno slot dove inserire il peso virtuale-->
+            <input type="range" min="0" max="100" value="0" id="weightSlider"> <!--Intervallo di valore del peso che si può selezionare-->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Collega a un documeto esterno chaiamato "script.js"-->
+</body>
+</html>
